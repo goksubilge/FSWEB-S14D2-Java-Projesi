@@ -14,4 +14,11 @@ public class Wall {
     public void create(){
         System.out.println("Direction object:" + direction.name());
     }
+
+    @Override
+    public String toString() {
+        return "Wall{" +
+                "direction=" + direction +
+                '}';
+    }
 }

@@ -16,4 +16,12 @@ public class Ceiling {
     public void create(){
         System.out.println( "Ceiling: " + height + "color is: " + color.name() );
     }
+
+    @Override
+    public String toString() {
+        return "Ceiling{" +
+                "height=" + height +
+                ", color=" + color +
+                '}';
+    }
 }

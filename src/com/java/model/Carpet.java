@@ -17,4 +17,13 @@ public class Carpet {
     public int getHeight() {return height;}
     public PaintColor getColor() {return color;}
     public void lying(){System.out.println("Carpet is lying on Bedroom floor.");}
+
+    @Override
+    public String toString() {
+        return "Carpet{" +
+                "width=" + width +
+                ", height=" + height +
+                ", color=" + color +
+                '}';
+    }
 }

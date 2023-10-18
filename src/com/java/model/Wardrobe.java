@@ -15,4 +15,13 @@ public class Wardrobe {
     public double getWeight() {return weight;}
 
     public void add(){System.out.println("Wardrobe added into Bedroom.");}
+
+    @Override
+    public String toString() {
+        return "Wardrobe{" +
+                "width=" + width +
+                ", height=" + height +
+                ", weight=" + weight +
+                '}';
+    }
 }
