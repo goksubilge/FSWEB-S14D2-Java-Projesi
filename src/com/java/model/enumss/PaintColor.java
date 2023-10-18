@@ -5,7 +5,7 @@ public enum PaintColor {
     YELLOW(1),
     ORANGE(2),
     BLACK(3),
-    WHİTE(4),
+    WHITE(4),
     BEIGE(5),
     PURPLE(6),
     RED(7),
