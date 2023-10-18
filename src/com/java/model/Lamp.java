@@ -27,11 +27,11 @@ public class Lamp {
 @Override  // bugünün tekrarı: BUILDER
     public String toString(){
         StringBuilder builder = new StringBuilder();
-        builder.append("\n****\n");
+        builder.append("\n**** LAMP ****\n");
         builder.append("LAMP\n");
-    builder.append("Style: " + style + "\n");
-    builder.append("Battery: " + battery + "\n");
-    builder.append("Glob Raiting: " + globRating + "\n");
-    return builder.toString();
+        builder.append("Style: " + style + "\n");
+        builder.append("Battery: " + battery + "\n");
+        builder.append("Glob Rating: " + globRating + "\n");
+        return builder.toString();
 }
 }
